@@ -2,38 +2,125 @@ ul {
     display: flex;
     list-style: none;
     text-align: center;
+    background: #273c75;
+    margin: auto;
 }
 ul li {
-    padding: 20px;
+    padding: 30px;
     
 }
 ul li a {
     font-family: sans-serif;
     text-decoration: none;
-    color: #576574;
+    color: white;
     
+}
+img{
+    height: 70vh;
+    width: 100%;
 }
 a:hover{
-    color:#273c75;
+    color:#1e90ff;
 }
 .container {
-    background: #f7f1e3;
-    height: 70vh;
-    width: 99%;
+    width: 100%;
+    height: 80vh;
     margin: auto;
-    padding: 5px;
-    border: 5px;
+    padding: 0px;
+    border: 0px;
     
 }
-.aboutme {
-    color: #576574;
-    margin-left: 70%;
+.aboutme{
+    position: absolute;
+    bottom: 35%;
+    left: 40%;
+    color:#273c75;
 }
-.pic {
-    width: 50%;
-    height: auto;
+h1 h2{
+    font-weight: 500;
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
 }
 footer{
     background: #273c75;
-    padding: 70px;
+    padding: 50px;
 }
+
+/* containerOne */
+
+.containerOne{
+    width: 100%;
+    height: 98vh;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    background: crimson;
+}
+.contact-form{
+    display: flex;
+}
+.form{
+    margin-left: 15%;
+    margin-top: 15vh;
+    height: 60vh;
+}
+.form p{
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    padding: 8px;
+    width: 150%;
+    margin: 2px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+textarea{
+    height: 20vh;
+} 
+input[type="submit"]{
+    margin-left: 130%;
+    padding: 8px;
+    outline: none;
+}
+.contact{
+    margin-left: 17%;
+    margin-top: 7.5vh;
+    font-size: 50px;
+    font-family: garamond;
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+}
+.contactOne{
+    font-size: 12px;
+    margin-top: 35vh;
+}
+.contactOne a{
+    text-decoration: none;
+    color: white;
+}
+small{
+    color: white;
+}
+
+/* cv */
+.info-cv{
+    
+    width:70%;
+    height: 70vh;
+    margin-left: 15%;
+    margin-top: 7vh;
+    border-style: solid;
+    border-color: black;
+    
+}
+.my-pic{
+    height: 30vh;
+}
+
