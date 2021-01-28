@@ -1,9 +1,14 @@
+body{
+    margin: auto;
+    height: auto;
+}
 ul {
     display: flex;
     list-style: none;
     text-align: center;
     background: #273c75;
     margin: auto;
+    text-transform: uppercase;
 }
 ul li {
     padding: 30px;
@@ -15,9 +20,10 @@ ul li a {
     color: white;
     
 }
-img{
+.bg-img img{
     height: 70vh;
     width: 100%;
+    filter:opacity();
 }
 a:hover{
     color:#1e90ff;
@@ -32,27 +38,44 @@ a:hover{
 }
 .aboutme{
     position: absolute;
-    bottom: 35%;
-    left: 40%;
-    color:#273c75;
+    bottom: 40%;
+    left: 30%;
+    color:  #273c75;
 }
-h1 h2{
-    font-weight: 500;
+h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
 }
 p{
     font-weight: 500;
     font-size: 20px;
 }
 footer{
-    background: #273c75;
-    padding: 50px;
+    padding: 20px;
+    background:#273c75;
+    display: flex;
+    justify-content: center;
+}
+.home-contact a{
+    color: #ffffff;
+    font-size: 30px;
+    height: 30px;   
+}
+.home-contact p{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.home-contact a:hover{
+    color:#1e90ff;
 }
 
-/* containerOne */
+
+/* contact */
 
 .containerOne{
     width: 100%;
-    height: 98vh;
+    height: 100vh;
     margin: auto;
     padding: 0px;
     border: 0px;
@@ -88,10 +111,10 @@ input[type="submit"]{
     outline: none;
 }
 .contact{
-    margin-left: 17%;
+    margin-left: 13%;
     margin-top: 7.5vh;
     font-size: 50px;
-    font-family: garamond;
+    
 }
 h3{
     text-transform: uppercase;
@@ -108,19 +131,69 @@ h3{
 small{
     color: white;
 }
+.social-contact{
+    color:rgb(29, 96, 141);
+    font-size: 25px;
+    margin-top: 150px;
+}
+.social-contact a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /* cv */
 .info-cv{
-    
-    width:70%;
-    height: 70vh;
-    margin-left: 15%;
+    width:80%;
+    margin-left: 10%;
     margin-top: 7vh;
     border-style: solid;
     border-color: black;
+    height: 87%; 
+    display: flex;
+    background-color: #273c75;
+    border-radius: 5px;
+    border-color: #273c75;
+
+}
+h4{
+    color: #ffffff;
+    font-size: 40px;
     
 }
-.my-pic{
-    height: 30vh;
+.cv-myname p{
+    font-size: 20px;
+    color: #ffffff;
 }
-
+.cv-address p{
+    margin-left: 0%;
+    font-size: 15px;
+    color: #ffffff;
+}
+.cv-contact p{
+    margin-left: auto;
+    font-size: 15px;
+    color: #ffffff ;
+    
+}
+.cv-contact a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.img-me img{
+    height: 70%;
+    margin-left: 280%;
+    margin-top: 28%;
+    border-color: white;
+}
+.cv-contact a:hover{
+    color: #1e90ff;
+}
+.cv-icons-social a{
+    color:#ffffff;
+}
+.cv-icons-social a:hover{
+    color:#1e90ff;
+}
+iframe{
+    width: auto;
+}
