@@ -90,6 +90,7 @@ footer{
     margin-left: 15%;
     margin-top: 15vh;
     height: 60vh;
+    
 }
 .form p{
     color: white;
@@ -103,14 +104,29 @@ textarea{
     margin: 2px 0;
     box-sizing: border-box;
     outline: none;
+    background-color: #273c75;
+    border: none;
+    border-radius: 5px;
+    outline-color: #ffffff;
+    cursor: pointer;
 }
 textarea{
     height: 20vh;
 } 
 input[type="submit"]{
-    margin-left: 130%;
+    margin-left: 150%;
     padding: 8px;
     outline: none;
+    border: none;
+    background-color: #273c75;
+    border-radius: 5px;
+    width: 90px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #1e90ff;
 }
 .contact{
     margin-left: 13%;
@@ -408,7 +424,5 @@ h2{
     .social-contact{
         width: 100%;
     }
-    .aboutme{
-        width: 20%;
-    }
+    
 }
