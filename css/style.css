@@ -143,6 +143,7 @@ small{
     color: #ffffff;
     
 }
+
 iframe{
     height: 70vh;
     width: 100%;
@@ -155,7 +156,16 @@ iframe{
     top: 0;
 }
 
-
+.footer-contact a{
+    color: #ffffff;
+}
+.footer-contact p{
+    color: #ffffff;
+    
+}
+.footer-contact a:hover{
+    color: #1e90ff;
+}
 /* cv */
 .container-cv{
     position: sticky;
@@ -263,7 +273,12 @@ hr{
     text-decoration: none;
     font-family: sans-serif;
 }
-
+.cv-footer a{
+    color: #ffffff;
+}
+.cv-footer p{
+    color: #ffffff;
+}
 
 /* .project */
 
@@ -379,9 +394,21 @@ h2{
     color:#1e90ff ;
 }
 /* Responsive */
-/* @media(min-width:800px){
-    .contact-form{
-        width: 50%;
+@media(min-width:800px){
+    body{
+        width: 49%;
     }
 
-} */
+}
+@media(min-width:400px){
+    body{
+        width: 100%;
+    }
+
+    .social-contact{
+        width: 100%;
+    }
+    .aboutme{
+        width: 20%;
+    }
+}
